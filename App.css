@@ -1,0 +1,116 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.box {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.myinput {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.myinput div {
+  display: flex;
+  flex-direction: column;
+}
+
+.myinput label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.myinput input {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+.myinput input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.myinput button {
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.myinput button:hover {
+  background-color: #0056b3;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.data {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.data p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.btns {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.btns button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btns button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.btns button:first-child:hover {
+  background-color: #218838;
+}
+
+.btns button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btns button:last-child:hover {
+  background-color: #c82333;
+}
